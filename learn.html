@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- Link Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="learn.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+
+        <!-- navbar start -->
+
+        <nav>
+            <a href="">
+                <p>Chatroyez</p>
+             
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class=" fa fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <!-- navbar end -->
+
+        <!-- Center Content In the Hero Section -->
+
+        <div class="text-box">
+            <h1>Chatroyez</h1>
+            <p>Embark on an Extraordinary Culinary Journey</p>
+            <a href="" class="hero-btn">Reserve Your Table</a>
+        </div>
+
+    </section>
+
+    <!-- Food Product Container -->
+
+    <section class="product">
+
+        <h1>Our Signature Creations</h1>
+        <p>This Is Our Restraurant Speciality</p>
+
+        <div class="row">
+            <div class="product-col">
+                <img src="image/dessert.jpg" alt="">
+                <p>Dessert</p>
+                <p>$220</p>
+            </div>
+            <div class="product-col">
+                <img src="image/butterchicken.jpg" alt="">
+                <p>Butter Chicken</p>
+                <p>$120</p>
+            </div>
+            <div class="product-col">
+                <img src="image/samosa.jpg" alt="">
+                <p>Samosa</p>
+                <p>$30</p>
+            </div>
+        </div>
+        <a href="menu.html" style="text-decoration: none;">View Menu</a>
+    </section>
+
+
+    <section class="showcase-product">
+
+        <h1>Our Culinary Showcase</h1>
+
+        <div class="row">
+            <div class="showcase-col">
+                <img src="image/unsplash_dessert.jpg" alt="">
+                <div class="layer">
+                    <h3>Tasty Delicious Cake</h3>
+                </div>
+            </div>
+            <div class="showcase-col">
+                <img src="image/unspash_dessert3.jpg" alt="">
+                <div class="layer">
+                    <h3>A Smooth Cake</h3>
+                </div>
+            </div>
+            <div class="showcase-col">
+                <img src="image/unsplash_dessert2.jpg" alt="">
+                <div class="layer">
+                    <h3>Colour Full Layer</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 
+     <section class="story">
+        
+        <div class="row">
+            <div class="story-container">
+                <img src="image/photo-1577219491135-ce391730fb2c.avif" alt="" class="shadow p-3 mb-5 bg-light rounded">
+                </div>
+                <div class="story-col">
+                    <h1>The Chatoreyz Story</h1>
+                    <p>Founded by Chef Atul Gour, Chatoreyz is more than just a restaurant - it's a culinary journey through the vibrant flavors of India. Our passion for authentic recipes, fresh ingredients, and innovative cooking techniques has made us a favorite among food lovers in Indore.
+    
+                        At Chatoreyz, we believe that great food brings people together. Whether you're joining us for a quick lunch, a family dinner, or a special celebration, we promise an unforgettable dining experience that will keep you coming back for more.</p>
+        
+                </div>
+            </div>
+            </div>
+     </section> -->
+    <!--  JavaScript Code  -->
+
+
+    <section class="conatiner">
+        <div class="row ">
+            <div class="col-auto  d-lg-block">
+                <img class="bd-placeholder-img" width="100%" height="700px"
+                    src="image/photo-1577219491135-ce391730fb2c.avif">
+            </div>
+            <div class="col">
+                <div class="story-col">
+                    <h1>The Chatoreyz Story</h1>
+                    <p>Founded by Chef Atul Gour, Chatoreyz is more than just a restaurant - it's a culinary journey
+                        through the vibrant flavors of India. Our passion for authentic recipes, fresh ingredients, and
+                        innovative cooking techniques has made us a favorite among food lovers in Indore.
+
+                        At Chatoreyz, we believe that great food brings people together. Whether you're joining us for a
+                        quick lunch, a family dinner, or a special celebration, we promise an unforgettable dining
+                        experience that will keep you coming back for more.</p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="container">
+        <h1>Connect With Us</h1>
+        <div class="row mb-2 ">
+           <div class="box_image_conatiner ">
+            <form class="form  shadow p-3 mb-5 bg-light rounded py-5">
+                <div class="form-group">
+                    <label >Name</label>
+                    <input type="text" class="form-control">
+
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+                <!-- <div class="story-col"> -->
+                    <div class="content_conatiner">
+                        <h1>Visit Us</h1>
+                        <p>Telephone Nagar Square, Near Sangam Square, Indore, Madhya Pradesh, India</p>
+           
+                        <h1>Business Hours</h1>
+                        <p>Monday - Friday: 11:00 AM - 10:00 PM
+                           Saturday - Sunday: 10:00 AM - 11:00 PM
+                           </p>
+                           <h1>Contact Information</h1>
+                           <p> +91-8826312998</p>
+                           <p>atulgour2947@gmail.com</p>
+                           <p>www.chatoreyz.com</p>
+
+                           <i class="fa-brands fa-facebook-f"></i>
+                           <i class="fa-brands fa-twitter"></i>
+                           <i class="fa-brands fa-instagram"></i>
+                      </div>
+            </div>
+        </div>
+
+    </section>
+
+<section class="patrons-conatiner">
+    <div class="container-float py-5 m-5 patrons-say" >
+        <h1 class="text-center">What Our Patrons Say</h1>
+        <div class="row ">
+        <div class="sixth_conatiner_content " >
+            <div class="card" >
+                <div class="card-body">
+                 
+                  <p class="card-text">"The Masala Dosa at Chatoreyz is simply out of this world! Crispy, flavorful, and authentic. A must-try!"</p>
+                 
+                </div>
+                <div class="layer">
+                    <h3>Priya Sharma</h3>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-body">
+            
+                  <p class="card-text">"Chef Atul's Butter Chicken is the best I've ever had. The flavors are perfectly balanced, and the chicken is so tender."</p>
+                 
+                </div>
+                <div class="layer">
+                    <h3>Rahul Verma</h3>
+                </div>
+              </div>
+              <div class="card w-40">
+                <div class="card-body">
+                  <p class="card-text">"The ambiance, service, and food at Chatoreyz are all top-notch. It's become our family's favorite restaurant in Indore!"
+
+                  </p>
+                 
+                </div>
+                <div class="layer">
+                    <h3>Anita Patel</h3>
+                </div>
+              </div>
+              </div>
+
+        </div>
+    </div>
+
+</section>
+<section class="patrons-conatiner">
+    <div class="jumbotron">
+        <h1 class="text-center">Stay Connected with Chatoreyz</h1>
+        <p class="lead text-center">Subscribe to our newsletter for exclusive offers, new menu items, and culinary tips from Chef Atul!</p>
+        <div class="imput-container text-center">
+            <input type="text" placeholder="Enter your email">
+            <a class="btn btn-lg btn-primary" href="/docs/4.6/components/navbar/" role="button">Subscribe</a>
+
+        </div>
+      </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class=" container footer">
+    <div class="row">
+      <div class=" col-md">
+       
+        <h5>Chatoreyz</h5>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Home</a></li>
+          <li><a class="text-muted" href="#">Menu</a></li>
+          <li><a class="text-muted" href="#">Gallery</a></li>
+          <li><a class="text-muted" href="#">About</a></li>
+          <li><a class="text-muted" href="#">
+            contact
+            </a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Telephone Nagar Square, Near Sangam Square, Indore</a></li>
+          <li><a class="text-muted" href="#">+91-8826312998</a></li>
+          <li><a class="text-muted" href="#">atulgour2947@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Opening Hours</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Monday - Friday: 11:00 AM - 10:00 PM</a></li>
+          <li><a class="text-muted" href="#">Locations</a></li>
+          <li><a class="text-muted" href="#">Privacy</a></li>
+          <li><a class="text-muted" href="#">Saturday - Sunday: 10:00 AM - 11:00 PM</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+    <script>
+
+        var navLinks = document.getElementById( 'nav-links' );
+
+        function showMenu ()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu ()
+        {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+
+    <!-- Bootstarp Css -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="menu.css">
+
+        <!-- Google Fonts  -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+        <!-- Font Awesome Link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="header">
+
+        <!-- navbar start -->
+
+        <nav>
+            <a href="">
+                <p>Chatroyez</p>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <i class=" fa fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="learn.html">Home</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="signup.html">Sign up</a></li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>
+        <!-- navbar end -->
+    <div class="header  m-4 p-2 ">
+        <h1 >Food Menu</h1>
+        <p>Tasty And Delicious Dishes</p>
+    </div>
+    <section class="container container-first">
+        <div class="row">
+            <div class="product-col">
+                <img src="image/samosa.jpg" alt="">
+               <h3>Appetizers</h3>
+               <div class="course-list">
+                    <ol class="content-course-list">
+                        <li>Paneer Tikka</li>
+                        <li>Vegetable Samosa</li>
+                        <li>Onion Bhaji</li>
+                        <li>Dahi Puri</li>
+                        <li>Papdi Chaat</li>
+                    </ol>
+                    <ol class="price-course-list">
+                        <li>₹180</li>
+                        <li>₹80</li>
+                        <li>₹100</li>
+                        <li>₹120</li>
+                        <li>₹110</li>
+                    </ol>
+               </div>
+            </div>
+            <div class="product-col">
+                <img src="image/butterchicken.jpg" alt="">
+                <h3>Main Courses</h3>
+               <div class="course-list">
+                    <ol class="content-course-list">
+                        <li>Butter Chicken</li>
+                        <li>Palak Paneer</li>
+                        <li>Vegetable Biryani</li>
+                        <li>Chicken Tikka Masala</li>
+                        <li>Dal Makhani</li>
+                    </ol>
+                    <ol class="price-course-list">
+                        <li>₹250</li>
+                        <li>₹220</li>
+                        <li>₹200</li>
+                        <li>₹280</li>
+                        <li>₹180</li>
+                    </ol>
+               </div>
+            </div>
+            <div class="product-col">
+                <img src="image/naan.jpg" alt="">
+                <h3>Breads</h3>
+               <div class="course-list">
+                    <ol class="content-course-list">
+                        <li>Naan</li>
+                        <li>Garlic Naan</li>
+                        <li>Butter Roti</li>
+                        <li>Laccha Paratha</li>
+                        <li>Kulcha</li>
+                    </ol>
+                    <ol class="price-course-list">
+                        <li>₹40</li>
+                        <li>₹50</li>
+                        <li>₹30</li>
+                        <li>₹60</li>
+                        <li>₹55</li>
+                    </ol>
+               </div>
+            </div>
+            <div class="product-col">
+                <img src="image/dessert.jpg" alt="">
+                <h3>Desserts</h3>
+               <div class="course-list">
+                    <ol class="content-course-list">
+                        <li>Gulab Jamun</li>
+                        <li>Rasmalai</li>
+                        <li>Kheer</li>
+                        <li>Gajar Ka Halwa</li>
+                        <li>Kulfi</li>
+                    </ol>
+                    <ol class="price-course-list">
+                        <li>₹100</li>
+                        <li>₹120</li>
+                        <li>₹90</li>
+                        <li>₹110</li>
+                        <li>₹80</li>
+                    </ol>
+               </div>
+            </div>
+            <div class="product-col">
+                <img src="image/chai2.jpg" alt="">
+                <h3>Beverages</h3>
+               <div class="course-list">
+                    <ol class="content-course-list">
+                        <li>Masala Chai</li>
+                        <li>Lassi</li>
+                        <li>Mango Shake</li>
+                        <li>Fresh Lime Soda</li>
+                        <li>Butter Milk</li>
+                    </ol>
+                    <ol class="price-course-list">
+                        <li>₹50</li>
+                        <li>₹70</li>
+                        <li>₹90</li>
+                        <li>₹60</li>
+                        <li>₹40</li>
+                    </ol>
+               </div>
+            </div>
+           
+            </div>
+        </div>
+    </section>
+<hr style="color: gray;">
+    <footer class=" container footer">
+        <div class="row">
+          <div class=" col-md">
+           
+            <h5>Chatoreyz</h5>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="list" href="#">Home</a></li>
+              <li><a class="list" href="#">Menu</a></li>
+              <li><a class="list" href="#">Gallery</a></li>
+              <li><a class="list" href="#">About</a></li>
+              <li><a class="list" href="#">
+                contact
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="list" href="#">Telephone Nagar Square, Near Sangam Square, Indore</a></li>
+              <li><a class="list" href="#">+91-8826312998</a></li>
+              <li><a class="list" href="#">atulgour2947@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Opening Hours</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="list" href="#">Monday - Friday: 11:00 AM - 10:00 PM</a></li>
+              <li><a class="list" href="#">Locations</a></li>
+              <li><a class="list" href="#">Privacy</a></li>
+              <li><a class="list" href="#">Saturday - Sunday: 10:00 AM - 11:00 PM</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+    <script>
+
+        var navLinks = document.getElementById( 'nav-links' );
+
+        function showMenu ()
+        {
+            navLinks.style.right = "0";
+        }
+        function hideMenu ()
+        {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
